@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+/* -----general classes------ */
+.whiteback{
+    background-color: white;
+    color: #222;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+/* -----general body-------- */
+
+body{
+    margin: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #eee;
+    overflow: hidden;
+}
+
+/* -------header------- */
+
+body>header{
+    background-color: #222;
+    padding-bottom: 1rem;
+    margin-bottom: .5rem;
+    height: 33vh;
+}
+body>header>div{
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+body>header>div>form>button{
+    font-size: 1.2rem;
+    padding: 1.2rem 2.2rem;
+    margin: 1rem;
+}
+body>header>h1{
+    margin-top: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* ------main------- */
+
+body>main{
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+}
+
+#number{
+    font-size: 4rem;
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: -3.9rem;
+}
+#content{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+#play-area form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+#guess{
+    background-color: #222  ;
+    border: #eee .2rem solid;
+    height: 3rem;
+    width: 13rem;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #eee;
+    padding: 1rem;
+    text-align: center;
+}
+#guess:focus {
+    outline:none;
+}
+#play-area button{
+    font-size: 1.2rem;
+    padding: 1rem 1.7rem;
+}
+#display h2{
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 150;
+}
+#display>h2{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+}
